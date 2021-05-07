@@ -40,7 +40,7 @@ fun Main() {
     Text(text = "Count2:${viewModel.count2}")
 
     Spacer(modifier = Modifier.height(10.dp))
-    Text(text = "Result8500:${viewModel.countResult8500}")
+    Text(text = "Result8000:${viewModel.countResult8000}")
 
     Button(onClick = viewModel::onClickCount) {
       Text(text = "count")
